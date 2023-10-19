@@ -1,0 +1,82 @@
+body{
+    background-color: coral;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul { text-align:center; }
+
+ul li{
+    background-color: black;
+    list-style: none;
+    display: inline-block;
+    color: coral;
+    padding: 5px;
+    text-align:center;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: coral;
+    margin:10px;
+    text-align:center;
+}
+
+div{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+div1{
+    width: 50%;
+    border: 5px outset red;
+    background-color: black;    
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+footer{
+    background-color: black;
+    color:coral;
+    text-align: center;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+}
+
+table.table1{
+    width: 100%;
+}
+
+table.table2{
+    width: 50%;
+}
+
+table.table3{
+    width: 40%;
+}
+
+th,td{
+    background-color: black;
+    color: coral;
+    text-align:center;
+}
+
+h1,h2{
+    text-align:center;
+    text-decoration:none;
+
+}
+
+a:link, a:visited, a:hover, a:active
+{
+    color: coral;
+    text-decoration: none;
+}
